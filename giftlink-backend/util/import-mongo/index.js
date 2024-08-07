@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv').config({ path: '/Users/myarose/fullstack-capstone-project/giftlink-backend/.env.sample' });
 const MongoClient = require('mongodb').MongoClient;
 const fs = require('fs');
 
