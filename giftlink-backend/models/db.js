@@ -1,5 +1,5 @@
 // db.js
-require('dotenv').config({ path: '/Users/myarose/fullstack-capstone-project/giftlink-backend/.env.sample' });
+require('dotenv').config({ path: '/Users/myarose/fullstack-capstone-project/.env' });
 const MongoClient = require('mongodb').MongoClient;
 
 // MongoDB connection URL with authentication options
