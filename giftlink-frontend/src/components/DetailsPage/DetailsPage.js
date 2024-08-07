@@ -13,14 +13,14 @@ function DetailsPage() {
         const authenticationToken = sessionStorage.getItem('auth-token');
         if (!authenticationToken) {
 			// Task 1: Check for authentication and redirect
-            {{insert code here}}
+            // {{insert code here}}
         }
 
         // get the gift to be rendered on the details page
         const fetchGift = async () => {
             try {
 				// Task 2: Fetch gift details
-                const response ={{insert code here}}
+                // const response ={{insert code here}}
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -36,14 +36,14 @@ function DetailsPage() {
         fetchGift();
 
 		// Task 3: Scroll to top on component mount
-		{{ insert code here }}
+		// {{ insert code here }}
 
     }, [productId]);
 
 
     const handleBackClick = () => {
 		// Task 4: Handle back click
-		{{ insert code here }}
+		// {{ insert code here }}
 	};
 
 	//The comments have been hardcoded for this project.
@@ -92,19 +92,19 @@ return (
                         )}
                     </div>
                     // Task 6: Display gift details
-                    	<p><strong>Category:</strong> 
+                    	<p><strong>Category:</strong>
 				{/* insert code here  */}
 			</p>
-                    	<p><strong>Condition:</strong> 
+                    	<p><strong>Condition:</strong>
 				{/* insert code here  */}
                     	</p>
-                    	<p><strong>Date Added:</strong> 
+                    	<p><strong>Date Added:</strong>
 				{/* insert code here  */}
                         </p>
-                    	<p><strong>Age (Years):</strong> 
+                    	<p><strong>Age (Years):</strong>
 				{/* insert code here  */}
                     	</p>
-                    	<p><strong>Description:</strong> 
+                    	<p><strong>Description:</strong>
 				{/* insert code here  */}
                     	</p>
                 </div>

@@ -29,9 +29,6 @@ async function connectToDatabase() {
         return dbInstance;
     } catch (e) {
         console.error(e);
-    } finally {
-        // Close the connection
-        await client.close()
     }
 }
 
