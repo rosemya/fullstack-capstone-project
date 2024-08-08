@@ -15,29 +15,29 @@ function RegisterPage() {
     return (
         <div className="container mt-5">
             <div className="row justify-content-center">
-                <div className="col-md-6 col-lg-4">
+                <div className="col-md-5 col-lg-7">
                     <div className="register-card p-4 border rounded">
                         <h2 className="text-center mb-4 font-weight-bold">Register</h2>
 
                         <div className="mb-4">
-                            <label htmlFor="firstName" className="form label"> FirstName</label><br/>
+                            <label htmlFor="firstName" className="form label"> First Name</label><br/>
                             <input
                                 id="firstName"
                                 type="text"
                                 className="form-control"
-                                placeholder="Enter your firstName"
+                                placeholder="Enter your first name"
                                 value={firstName}
                                 onChange={(e) => setFirstName(e.target.value)}
                             />
                         </div>
 
                         <div className="mb-3">
-                            <label htmlFor="lastName" className="form-label">LastName</label>
+                            <label htmlFor="lastName" className="form-label">Last Name</label>
                             <input
                                 id="lastName"
                                 type="text"
                                 className="form-control"
-                                placeholder="Enter your lastName"
+                                placeholder="Enter your last name"
                                 value={lastName}
                                 onChange={(e) => setLastName(e.target.value)}
                             />
