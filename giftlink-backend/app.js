@@ -5,7 +5,7 @@ const cors = require('cors');
 const pinoLogger = require('./logger');
 
 const connectToDatabase = require('./models/db');
-const {loadData} = require("./util/import-mongo/index");
+// const {loadData} = require("./util/import-mongo/index");
 
 
 const app = express();
@@ -46,13 +46,13 @@ app.use('/api/search', searchRoutes);
 app.use('/api/auth', authRoutes);
 
 // Global Error Handler
-app.use((err, req, res, next) => {
+app.use((err, req, res) => {
     console.error(err);
     res.status(500).send('Internal Server Error');
 });
 
 app.get("/",(req,res)=>{
-    res.send("Inside the server")
+    res.send("Inside the server");
 })
 
 app.listen(port, () => {
