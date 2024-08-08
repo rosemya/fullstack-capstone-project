@@ -24,21 +24,15 @@ R
 "giftlink-frontend/public/home.html,0/5/05e2694ae6447f1548c5315dfad601b360189446
 e
 5giftlink-frontend/src/components/MainPage/MainPage.js,8/5/85f5dbbe51f295b59be6e66b6d7597c30894b4cd
-O
-giftlink-frontend/src/config.js,0/3/03ee9731b1678b4d479f31617ab96fdd61383e4a
 n
 >giftlink-frontend/src/components/RegisterPage/RegisterPage.css,2/9/29913afe90aaaf653a7156c40f16bb1e88c732ce
 h
 8giftlink-frontend/src/components/LoginPage/LoginPage.css,a/c/acaabc1cc6cac2970a1e24226286d9a753e56e42
-\
-,giftlink-frontend/src/context/AuthContext.js,f/7/f71067688d09d3470f621fce2f22dd8a9bb7e1a0
 ]
 -giftlink-backend/util/import-mongo/gifts.json,5/d/5de3eb9c2db05337a0bf909c68a693a0fdf26710
 l
 <giftlink-frontend/src/components/DetailsPage/DetailsPage.css,7/1/719e1db783443a53f99bd34eb4051064012a3190
 g
 7giftlink-frontend/src/components/LoginPage/LoginPage.js,3/4/34c6a886b39cffde0b47fc152988376e43e45d99
-m
-=giftlink-frontend/src/components/RegisterPage/RegisterPage.js,2/f/2f194bdb6f7977f00f48b93c8cfb89734bbebea4
 k
 ;giftlink-frontend/src/components/DetailsPage/DetailsPage.js,6/0/60d60c4869d4719249c9f8dfd499d738c728ab68
