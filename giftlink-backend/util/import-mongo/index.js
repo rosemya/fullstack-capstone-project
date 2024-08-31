@@ -1,8 +1,7 @@
-require("dotenv").config({
-  path: "/Users/myarose/fullstack-capstone-project/.env",
-});
+require("dotenv").config();
 const MongoClient = require("mongodb").MongoClient;
 const fs = require("fs");
+
 
 // MongoDB connection URL with authentication options
 let url = `${process.env.MONGO_URL}`;
@@ -45,7 +44,7 @@ async function loadData() {
   }
 }
 
-await loadData();
+loadData();
 
 module.exports = {
   loadData,
